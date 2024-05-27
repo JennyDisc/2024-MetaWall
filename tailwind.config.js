@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './components/**/*.{vue,js,ts}',
-    './layouts/**/*.vue',
+    './layouts/**/*.{vue,js,ts,jsx,tsx}',
     './pages/**/*.vue',
     // './composables/**/*.{js,ts}',
     './plugins/**/*.{js,ts}',
@@ -19,7 +19,8 @@ module.exports = {
         'gray3': '#707070',
         'gray4': '#9B9893',
         'black1': '#000400',
-        'blue1': '#03438D'
+        'blue1': '#03438D',
+        'red1': '#F57375'
       }
     },
   },
